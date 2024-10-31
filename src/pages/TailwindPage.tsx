@@ -9,7 +9,7 @@ export default function TailwindPage() {
     <main className="mx-auto max-w-[1200px] p-8">
       <h1>Tailwind grid</h1>
       <div className="grid gap-8 lg:grid-cols-4">
-        <section className="bg-primary card text-white shadow-2xl lg:col-span-2">
+        <section className="bg-primary card bg-[url('assets/svg/bg-pattern-quotation.svg')] bg-[right_2rem_top] bg-no-repeat text-white shadow-2xl lg:col-span-2">
           <div className="card-container-name">
             <img src={danialImg} alt="daniel" className="card-photo" />
             <span className="card-name">Daniel Clifford</span>

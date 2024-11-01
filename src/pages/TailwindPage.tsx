@@ -4,17 +4,32 @@ import jonathanImg from './../assets/images/image-jonathan.jpg';
 import kiraImg from './../assets/images/image-kira.jpg';
 import patrickImg from './../assets/images/image-patrick.jpg';
 
+interface PersonTitleProps {
+  image: string;
+  name: string;
+  aboutPerson: string;
+  isWhiteBG?: boolean;
+}
+
+function PersonTitle({ image, name, aboutPerson, isWhiteBG = false }: PersonTitleProps) {
+  const styleAboutPerson = `card-edu ${isWhiteBG ? 'text-black/50' : ''}`;
+
+  return (
+    <div className="card-container-name">
+      <img src={image} alt={name} className="card-photo" />
+      <span className="card-name">{name}</span>
+      <span className={styleAboutPerson}>{aboutPerson}</span>
+    </div>
+  );
+}
+
 export default function TailwindPage() {
   return (
     <main className="mx-auto max-w-[1200px] p-8">
       <h1>Tailwind grid</h1>
       <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-4">
         <section className="card bg-primary bg-[url('assets/svg/bg-pattern-quotation.svg')] bg-[right_2rem_top] bg-no-repeat text-white shadow-2xl md:col-span-2 lg:col-span-2">
-          <div className="card-container-name">
-            <img src={danialImg} alt="daniel" className="card-photo" />
-            <span className="card-name">Daniel Clifford</span>
-            <span className="card-edu">Verified Graduate</span>
-          </div>
+          <PersonTitle image={danialImg} name="Daniel Clifford" aboutPerson="Verified Graduate" />
           <p className="card-info">
             I received a job offer mid-course, and the subjects I learned were current, if not more
             so, in the company I joined. I honestly feel I got every penny's worth.
@@ -29,11 +44,11 @@ export default function TailwindPage() {
           </p>
         </section>
         <section className="card bg-primary-darkGrayishBlue text-white">
-          <div className="card-container-name">
-            <img src={jonathanImg} alt="Jonathan" className="card-photo" />
-            <span className="card-name">Jonathan Walters</span>
-            <span className="card-edu">Verified Graduate</span>
-          </div>
+          <PersonTitle
+            image={jonathanImg}
+            name="Jonathan Walters"
+            aboutPerson="Verified Graduate"
+          />
           <p className="card-info">The team was very supportive and kept me motivated</p>
           <p className="card-description">
             I started as a total newbie with virtually no coding skills. I now work as a mobile
@@ -41,11 +56,12 @@ export default function TailwindPage() {
           </p>
         </section>
         <section className="card bg-white text-primary-darkBlackishBlue">
-          <div className="card-container-name">
-            <img src={jeanetteImg} alt="jean" className="card-photo" />
-            <span className="card-name">Jeanette Harmon</span>
-            <span className="card-edu text-black/50">Verified Graduate</span>
-          </div>
+          <PersonTitle
+            image={jeanetteImg}
+            name="Jeanette Harmon"
+            aboutPerson="Verified Graduate"
+            isWhiteBG={true}
+          />
           <p className="card-info">An overall wonderful and rewarding experience</p>
           <p className="card-description text-black/50">
             Thank you for the wonderful experience! I now have a job I really enjoy, and make a good
@@ -53,11 +69,7 @@ export default function TailwindPage() {
           </p>
         </section>
         <section className="card bg-primary-darkBlackishBlue text-white md:col-span-2 lg:col-span-2">
-          <div className="card-container-name">
-            <img src={patrickImg} alt="patrick" className="card-photo" />
-            <span className="card-name">Patrick Abrams</span>
-            <span className="card-edu">Verified Graduate</span>
-          </div>
+          <PersonTitle image={patrickImg} name="Patrick Abrams" aboutPerson="Verified Graduate" />
           <p className="card-info">
             Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from
             them and learning from their experiences was easy.
@@ -70,11 +82,12 @@ export default function TailwindPage() {
           </p>
         </section>
         <section className="card bg-white text-primary-darkBlackishBlue md:col-span-3 md:row-start-2 lg:col-start-4 lg:row-span-2 lg:row-start-1">
-          <div className="card-container-name">
-            <img src={kiraImg} alt="kira" className="card-photo" />
-            <span className="card-name">Kira Whittle</span>
-            <span className="card-edu text-black/50">Verified Graduate</span>
-          </div>
+          <PersonTitle
+            image={kiraImg}
+            name="Kira Whittle"
+            aboutPerson="Verified Graduate"
+            isWhiteBG={true}
+          />
           <p className="card-info">Such a life-changing experience. Highly recommended!</p>
           <p className="card-description text-black/50">
             Before joining the bootcamp, I've never written a line of code. I needed some structure

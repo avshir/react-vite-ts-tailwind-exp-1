@@ -1,15 +1,15 @@
-import danialImg from "./../assets/images/image-daniel.jpg";
-import jeanetteImg from "./../assets/images/image-jeanette.jpg";
-import jonathanImg from "./../assets/images/image-jonathan.jpg";
-import kiraImg from "./../assets/images/image-kira.jpg";
-import patrickImg from "./../assets/images/image-patrick.jpg";
+import danialImg from './../assets/images/image-daniel.jpg';
+import jeanetteImg from './../assets/images/image-jeanette.jpg';
+import jonathanImg from './../assets/images/image-jonathan.jpg';
+import kiraImg from './../assets/images/image-kira.jpg';
+import patrickImg from './../assets/images/image-patrick.jpg';
 
 export default function TailwindPage() {
   return (
     <main className="mx-auto max-w-[1200px] p-8">
       <h1>Tailwind grid</h1>
-      <div className="grid gap-8 lg:grid-cols-4">
-        <section className="bg-primary card bg-[url('assets/svg/bg-pattern-quotation.svg')] bg-[right_2rem_top] bg-no-repeat text-white shadow-2xl lg:col-span-2">
+      <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-4">
+        <section className="card bg-primary bg-[url('assets/svg/bg-pattern-quotation.svg')] bg-[right_2rem_top] bg-no-repeat text-white shadow-2xl md:col-span-2 lg:col-span-2">
           <div className="card-container-name">
             <img src={danialImg} alt="daniel" className="card-photo" />
             <span className="card-name">Daniel Clifford</span>
@@ -40,7 +40,7 @@ export default function TailwindPage() {
             engineer for a big company. This was one of the best investments I've made in myself.
           </p>
         </section>
-        <section className="card text-primary-darkBlackishBlue bg-white">
+        <section className="card bg-white text-primary-darkBlackishBlue">
           <div className="card-container-name">
             <img src={jeanetteImg} alt="jean" className="card-photo" />
             <span className="card-name">Jeanette Harmon</span>
@@ -52,7 +52,7 @@ export default function TailwindPage() {
             living while doing something I love.
           </p>
         </section>
-        <section className="card bg-primary-darkBlackishBlue text-white lg:col-span-2">
+        <section className="card bg-primary-darkBlackishBlue text-white md:col-span-2 lg:col-span-2">
           <div className="card-container-name">
             <img src={patrickImg} alt="patrick" className="card-photo" />
             <span className="card-name">Patrick Abrams</span>
@@ -69,7 +69,7 @@ export default function TailwindPage() {
             personal attention you need from an incredible community of smart and amazing people.
           </p>
         </section>
-        <section className="card text-primary-darkBlackishBlue bg-white lg:col-start-4 lg:row-span-2 lg:row-start-1">
+        <section className="card bg-white text-primary-darkBlackishBlue md:col-span-3 md:row-start-2 lg:col-start-4 lg:row-span-2 lg:row-start-1">
           <div className="card-container-name">
             <img src={kiraImg} alt="kira" className="card-photo" />
             <span className="card-name">Kira Whittle</span>

@@ -4,14 +4,31 @@
 
 /* see folder design */
 body {
+  height: 100%;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
   background-color: hsl(210, 46%, 95%);
 }
 
+.main {
+  flex: 1 1 auto;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 @layer base {
   h1 {
     @apply font-bold text-primary-darkBlackishBlue text-center mb-4 text-3xl md:text-4xl;
+  }
+  p {
+    @apply mb-4;
+  }
+  a.active {
+    @apply text-purple-300;
   }
 }
 
@@ -38,3 +55,15 @@ body {
     @apply font-bold text-white/50 before:content-['“'] after:content-['“'];
   }
 }
+
+/* 
+===== UI-kit project =====
+btn:
+bg-purple-400
+bg-yellow-400
+
+btn dark: 
+bg-purple-700
+
+hover:bg-purple-500
+*/

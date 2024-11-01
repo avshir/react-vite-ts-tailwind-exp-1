@@ -1,11 +1,18 @@
-import { Route, Routes } from "react-router-dom";
-import TailwindPage from "./pages/TailwindPage";
-import ErrorPage from "./pages/ErrorPage";
+import { Route, Routes } from 'react-router-dom';
+
+import ErrorPage from './pages/ErrorPage';
+import TailwindPage from './pages/TailwindPage';
+import ProductsPage from './pages/ProductsPage';
+import AboutPage from './pages/AboutPage';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <>
+      <Navigation />
       <Routes>
+        <Route path="/" element={<ProductsPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/tailwind" element={<TailwindPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>

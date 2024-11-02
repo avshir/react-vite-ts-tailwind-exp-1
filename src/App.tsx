@@ -5,6 +5,7 @@ import TailwindPage from './pages/TailwindPage';
 import ProductsPage from './pages/ProductsPage';
 import AboutPage from './pages/AboutPage';
 import Navigation from './components/Navigation';
+import ProductDummyPage from './pages/ProductsDummyPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<ProductsPage />} />
+        <Route path="/products-dummy" element={<ProductDummyPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/tailwind" element={<TailwindPage />} />
         <Route path="*" element={<ErrorPage />} />

@@ -9,6 +9,9 @@ export default function Navigation() {
           <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
             Products
           </NavLink>
+          <NavLink to="/products-dummy" className={({ isActive }) => (isActive ? 'active' : '')}>
+            ProductsDummy
+          </NavLink>
           <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
             About
           </NavLink>

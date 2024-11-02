@@ -29,7 +29,7 @@ export function useProducts() {
       setError("");
       setIsLoading(true);
       const res = await axios.get<IProduct[]>(
-        "https://fakestoreapi.com/products?limit=5"
+        "https://fakestoreapi.com/products"
       );
       console.log(res);
       setProducts(res.data);

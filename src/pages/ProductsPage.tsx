@@ -18,8 +18,17 @@ export default function ProductsPage() {
   };
 
   return (
-    <main className="container mx-auto max-w-[1000px] p-8">
+    <main className="container mx-auto p-8">
       <h1>Products Page</h1>
+      <h2 className="text-base font-bold">Used: </h2>
+      <ul className="list-disc pl-4 text-base">
+        <li>
+          <a href="https://fakestoreapi.com" target="_blank">
+            API: https://fakestoreapi.com
+          </a>{' '}
+        </li>
+        <li>Infinitely Load Data with 'react-intersection-observer'</li>
+      </ul>
       <button
         className="fixed right-5 top-[92px] mx-auto rounded-full bg-purple-700 px-6 py-2 text-base text-white duration-300 hover:bg-purple-500"
         onClick={() => setIsModal(true)}
@@ -28,7 +37,7 @@ export default function ProductsPage() {
       </button>
       {isLoading && <Loader />}
       {error && <ErrorMessage textError={error} />}
-      <div className="grid gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid max-w-[1024px] grid-cols-1 gap-2 py-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-4">
         {products.map((product) => (
           <Product product={product} key={product.id} />
         ))}

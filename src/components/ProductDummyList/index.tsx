@@ -4,15 +4,17 @@ import { IProductDummy } from './ProductDummy/index';
 import ProductDummy from './ProductDummy';
 import { Loader } from '../Loader';
 
+const RESPONSE_DELAY: number = 1500; 
+const AMOUNT_ELEM_ON_PAGE: number = 10; 
 
 export default function ProductDummyList() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<IProductDummy[]>([]);
   const [hasMore, setHasMore] = useState(true);
   const [page, setPage] = useState(0);
 
   const elementRef = useRef(null);
 
-  function onIntersection(entries: unknown[]) {
+  function onIntersection(entries: IntersectionObserverEntry[]) {
     const firstEntry = entries[0];
     if (firstEntry.isIntersecting && hasMore) {
       fetchMoreItems();
@@ -34,9 +36,11 @@ export default function ProductDummyList() {
   }, [products]);
 
   async function fetchMoreItems() {
-    const response = await fetch(`https://dummyjson.com/products?limit=10&skip=${page * 10}&delay=1500`);
+    const response = await fetch(
+      `https://dummyjson.com/products?limit=${AMOUNT_ELEM_ON_PAGE}&skip=${page * AMOUNT_ELEM_ON_PAGE}&delay=${RESPONSE_DELAY}`
+    );
 
-    const data = await response.json();
+    const data: { products: IProductDummy[] } = await response.json();
 
     if (data.products.length === 0) {
       setHasMore(false);

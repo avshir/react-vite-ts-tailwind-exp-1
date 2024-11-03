@@ -11,7 +11,7 @@ interface ProductProps {
 
 export const Product = ({ product }: ProductProps) => {
   const [showDetails, setShowDetails] = useState(false);
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     /* Optional options */   
     threshold: 0.4,
     triggerOnce: true,

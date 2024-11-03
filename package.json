@@ -1,6 +1,7 @@
 {
   "name": "react-vite-ts-tailwind-exp-1",
   "private": true,
+  "author": "Anna Shirinskaya <av.shirinskaya@gmail.com>",
   "homepage": "https://avshir.github.io/react-vite-ts-tailwind-exp-1",
   "version": "0.0.0",
   "type": "module",

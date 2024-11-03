@@ -37,7 +37,7 @@ export default function ProductsPage() {
       </button>
       {isLoading && <Loader />}
       {error && <ErrorMessage textError={error} />}
-      <div className="grid max-w-[1024px] grid-cols-1 gap-2 py-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-4">
+      <div className="mx-auto grid max-w-[1024px] grid-cols-1 gap-2 py-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-4">
         {products.map((product) => (
           <Product product={product} key={product.id} />
         ))}

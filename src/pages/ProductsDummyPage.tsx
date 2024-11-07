@@ -4,7 +4,7 @@ export default function ProductsDummyPage() {
   return (
     <main className="container mx-auto p-8">
       <h1>ProductsDummyPage</h1>
-      <h2 className="text-base font-bold">Used: </h2>
+      <h4 className="text-base font-bold">Used: </h4>
       <ul className="list-disc pl-4 text-base">
         <li>
           <a href="https://dummyjson.com/" target="_blank">

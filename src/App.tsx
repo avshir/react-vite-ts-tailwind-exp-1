@@ -6,13 +6,15 @@ import ProductsPage from './pages/ProductsPage';
 import AboutPage from './pages/AboutPage';
 import Navigation from './components/Navigation';
 import ProductDummyPage from './pages/ProductsDummyPage';
+import Experiments from './pages/Experiments';
 
 function App() {
   return (
     <>
       <Navigation />
       <Routes>
-        <Route path="/" element={<ProductsPage />} />
+        <Route path="/" element={<Experiments />} />
+        <Route path="/products" element={<ProductsPage />} />
         <Route path="/products-dummy" element={<ProductDummyPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/tailwind" element={<TailwindPage />} />

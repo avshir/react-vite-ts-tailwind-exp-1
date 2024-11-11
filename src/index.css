@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 /* see folder design */
+html,
 body {
   height: 100%;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
   background-color: hsl(210, 46%, 95%);
 }
-
-.main {
+/* .main {
   flex: 1 1 auto;
-}
+} */
 
 .wrapper {
   min-height: 100%;
@@ -21,6 +21,9 @@ body {
 }
 
 @layer base {
+  main {
+    @apply flex-auto;
+  }
   h1 {
     @apply font-bold text-primary-darkBlackishBlue text-center mb-4 text-3xl md:text-4xl;
   }
@@ -34,7 +37,10 @@ body {
     @apply mb-4;
   }
   a {
-    @apply text-purple-700;
+    @apply text-purple-700 transition duration-300;
+  }
+  a:hover {
+    @apply text-purple-500;
   }
   nav > a {
     @apply text-gray-50;
@@ -46,6 +52,9 @@ body {
 }
 
 @layer components {
+  /* .wrapper {
+    @apply flex min-h-full flex-col;
+  } */
   .card {
     @apply rounded-lg p-8;
   }

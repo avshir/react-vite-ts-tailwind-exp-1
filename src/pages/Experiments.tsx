@@ -8,6 +8,7 @@ import ButtonList from '../components/ButtonList';
 import IconsList from '../components/IconsList';
 import ButtonToTop from '../components/ButtonToTop';
 import Footer from '../components/Footer';
+import PricingSection from '../components/PricingSection';
 
 import { articles } from '../data/articles';
 
@@ -42,7 +43,11 @@ export default function Experiments() {
           <Button isRipple={true} isActive={true} onClick={() => alert('111')}>
             My button with with ripple effect
           </Button>
-          <Button isActive={true} onClick={() => alert('222')} className="bg-orange-500">
+          <Button
+            isActive={true}
+            onClick={() => alert('222')}
+            className="rounded-full bg-orange-500"
+          >
             My button with props
           </Button>
         </div>
@@ -84,6 +89,7 @@ export default function Experiments() {
             </article>
           ))}
         </section>
+        <PricingSection />
         <div className="text-right">
           <ButtonToTop>Jump to top ↑</ButtonToTop>
         </div>

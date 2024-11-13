@@ -27,7 +27,7 @@ export default function TabSection({ initTab = 'tab-1' }: TabSectionProps) {
         </Button>
       </div>
 
-      <div className="mx-auto w-64 tab-container">
+      <div className="tab-container mx-auto w-64">
         {activeTab === 'tab-1' && (
           <>
             <p>
@@ -47,10 +47,19 @@ export default function TabSection({ initTab = 'tab-1' }: TabSectionProps) {
           </>
         )}
         {activeTab === 'tab-2' && (
-          <p>
-            <span className="font-bold">Tab 2</span> info text. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Modi, tempora.
-          </p>
+          <>
+            <p>
+              <span className="font-bold">Tab 2</span> info text. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Modi, tempora. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Maxime doloremque, totam aspernatur porro aperiam quo cumque, sunt
+              odio iusto, est laborum quia autem libero quis et impedit. Quaerat neque ex maxime?
+              Voluptatibus obcaecati corporis sit.
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda libero voluptatum
+              officia quae? Expedita, dolor.
+            </p>
+          </>
         )}
         {activeTab === 'tab-3' && (
           <p>

@@ -6,9 +6,14 @@ export default function Footer() {
       <div className="container mx-auto flex justify-between p-8">
         <div>Footer </div>
         <div className="flex gap-2">
-          <a className="flex items-center gap-4 text-purple-300" href="https://github.com/avshir">
-            <GithubIcon className="h-6 w-6" fill="#A775F1" />
-            avhsir
+          <a
+            className="group flex items-center text-purple-300 transition"
+            href="https://github.com/avshir"
+          >
+            <GithubIcon className="h-6 w-6 fill-purple-300 transition group-hover:fill-purple-500" />
+            <span className="ml-2 text-purple-300 transition group-hover:text-purple-500">
+              avhsir
+            </span>
           </a>
           <span>|&nbsp; 2024</span>
         </div>
@@ -16,5 +21,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-

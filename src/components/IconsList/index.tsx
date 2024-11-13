@@ -13,6 +13,7 @@ export default function IconsComponent() {
         <GoogleIcon className="h-6 w-6" fill="orange" />
         <GoogleIcon className="h-6 w-6" />
         <GithubIcon className="h-6 w-6" />
+        <GithubIcon className="h-6 w-6 flex-none fill-zinc-500 transition hover:fill-teal-500" />
         <PatternIcon />
         <PatternIcon stroke="orange" viewBox="0 0 124 124" width={36} height={36} />
       </div>

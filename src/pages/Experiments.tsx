@@ -9,6 +9,8 @@ import IconsList from '../components/IconsList';
 import ButtonToTop from '../components/ButtonToTop';
 import Footer from '../components/Footer';
 import PricingSection from '../components/PricingSection';
+import CTASections from '../components/CTASections/';
+import Greeting1Section from '../components/Greeting1Section';
 
 import { articles } from '../data/articles';
 
@@ -89,8 +91,15 @@ export default function Experiments() {
             </article>
           ))}
         </section>
+        <section className="flex h-80 items-center justify-center bg-gradient-to-r from-indigo-700 to-black">
+          <p className="bg-gradient-to-r from-gray-500 to-gray-50 bg-clip-text text-4xl font-semibold text-transparent">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </section>
+        <CTASections />
         <PricingSection />
-        <div className="text-right">
+        <Greeting1Section />
+        <div className="mt-4 text-right">
           <ButtonToTop>Jump to top ↑</ButtonToTop>
         </div>
       </main>

@@ -1,5 +1,6 @@
-import { CheckIcon } from '@heroicons/react/20/solid';
 // https://tailwindui.com/components/marketing/sections/pricing
+import { classNames } from "./../../utils/utils"
+import { CheckIcon } from '@heroicons/react/20/solid';
 
 const tiers = [
   {
@@ -43,9 +44,7 @@ const tiers = [
   },
 ];
 
-function classNames(...classes: (string | undefined | false)[]): string {
-  return classes.filter(Boolean).join(' ');
-}
+
 export default function PricingSection() {
   return (
     <div className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8">

@@ -9,15 +9,17 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 const IMG_LOGO = 'https://tailwindui.com/plus/img/logos/mark.svg?color=purple&shade=300';
 
 const navigation = [
-  { name: 'Experiments', href: '/', current: true },
-  { name: 'Products', href: '/products', current: false },
-  { name: 'ProductsDummy', href: '/products-dummy', current: false },
-  { name: 'About', href: '/about', current: false },
-  { name: 'Tailwind practice', href: '/tailwind', current: false },
+  { name: 'Experiments', href: '/' },
+  { name: 'Products', href: '/products' },
+  { name: 'ProductsDummy', href: '/products-dummy' },
+  { name: 'About', href: '/about' },
+  { name: 'Tailwind practice', href: '/tailwind' },
 ];
 
 export default function FlyoutMenu() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const closeMobileMenu = () => setMobileMenuOpen(false);
+  const openMobileMenu = () => setMobileMenuOpen(true);
 
   return (
     <header className="bg-gray-800 text-lg text-gray-300">
@@ -36,7 +38,7 @@ export default function FlyoutMenu() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            onClick={() => setMobileMenuOpen(true)}
+            onClick={openMobileMenu}
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-300 hover:bg-gray-700 hover:text-white"
           >
             <span className="sr-only">Open main menu</span>
@@ -76,13 +78,13 @@ export default function FlyoutMenu() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto border-l border-gray-300/20 bg-gray-800 px-6 py-6 text-gray-300 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link to="/" className="-m-1.5 p-1.5">
+            <Link to="/" className="-m-1.5 p-1.5" onClick={closeMobileMenu}>
               <span className="sr-only">React Vite Tailwind 2024</span>
               <img alt="logo" src={IMG_LOGO} className="h-8 w-auto" />
             </Link>
             <button
               type="button"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={closeMobileMenu}
               className="-m-2.5 rounded-md p-2.5 text-gray-300 hover:bg-gray-700 hover:text-white"
             >
               <span className="sr-only">Close menu</span>
@@ -96,6 +98,7 @@ export default function FlyoutMenu() {
                   <NavLink
                     key={item.name}
                     to={item.href}
+                    onClick={closeMobileMenu}
                     className={({ isActive }) =>
                       classNames(
                         isActive
@@ -112,6 +115,7 @@ export default function FlyoutMenu() {
               <div className="py-6">
                 <NavLink
                   to="/login"
+                  onClick={closeMobileMenu}
                   className={({ isActive }) =>
                     classNames(
                       isActive

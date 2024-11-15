@@ -24,11 +24,16 @@ export default function Experiments() {
 
   return (
     <>
-      <main className="container mx-auto p-8">
+      <section className="flex h-80 items-center justify-center bg-gradient-to-r from-purple-400 to-gray-800">
+        <p className="max-w-2xl bg-gradient-to-r from-gray-50 to-gray-400 bg-clip-text p-8 text-center text-4xl font-semibold text-transparent">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque sint aperiam!
+        </p>
+      </section>
+      <main className="mx-auto w-full max-w-7xl p-8">
         <h1>
           Experiments with <span className="text-purple-700">React</span>
         </h1>
-        <div className="flex gap-4" id="button-group-experiments">
+        <div className="flex flex-wrap gap-4" id="button-group-experiments">
           <Button
             isActive={true}
             isRipple={true}
@@ -92,7 +97,7 @@ export default function Experiments() {
           ))}
         </section>
         <section className="flex h-80 items-center justify-center bg-gradient-to-r from-indigo-700 to-black">
-          <p className="bg-gradient-to-r from-gray-500 to-gray-50 bg-clip-text text-4xl font-semibold text-transparent">
+          <p className="max-w-7xl bg-gradient-to-r from-gray-500 to-gray-50 bg-clip-text p-8 text-4xl font-semibold text-transparent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </section>

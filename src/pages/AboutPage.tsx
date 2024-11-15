@@ -1,9 +1,9 @@
-import Footer from "../components/Footer";
+import Footer from '../components/Footer';
 
 export default function AboutPage() {
   return (
     <>
-      <main className="container mx-auto p-8">
+      <main className="mx-auto max-w-7xl p-8">
         <h1>About Page</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nihil corrupti ducimus

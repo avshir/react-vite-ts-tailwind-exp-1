@@ -2,8 +2,8 @@ import { GithubIcon } from '../Icons';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-lg text-white">
-      <div className="container mx-auto flex justify-between p-8">
+    <footer className="bg-gray-800">
+      <div className="mx-auto flex w-full max-w-7xl justify-between p-8 text-lg text-white">
         <div>Footer </div>
         <div className="flex gap-2">
           <a

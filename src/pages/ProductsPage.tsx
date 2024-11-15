@@ -25,7 +25,7 @@ export default function ProductsPage() {
   };
 
   return (
-    <main className="container mx-auto p-8">
+    <main className="mx-auto max-w-7xl p-8">
       <h1>Products Page</h1>
       <h4 className="text-base font-bold">Used: </h4>
       <ul className="list-disc pl-4 text-base">
@@ -37,7 +37,7 @@ export default function ProductsPage() {
         <li>Infinitely Load Data with 'react-intersection-observer'</li>
       </ul>
       <button
-        className="fixed right-5 top-[92px] mx-auto rounded-full bg-purple-700 px-6 py-2 text-base text-white duration-300 hover:bg-purple-500"
+        className="fixed right-5 top-[92px] z-10 mx-auto rounded-full bg-purple-700 px-6 py-2 text-base text-white duration-300 hover:bg-purple-500 lg:right-60"
         onClick={() => setIsModal(true)}
       >
         + Add new product

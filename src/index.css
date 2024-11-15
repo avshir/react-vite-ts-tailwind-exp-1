@@ -77,15 +77,3 @@ body {
     @apply font-bold text-white/50 before:content-['“'] after:content-['“'];
   }
 }
-
-/* 
-===== UI-kit project =====
-btn:
-bg-purple-400
-bg-yellow-400
-
-btn dark: 
-bg-purple-700
-
-hover:bg-purple-500
-*/

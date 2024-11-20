@@ -8,6 +8,7 @@ import ProductDummyPage from './pages/ProductsDummyPage';
 import Experiments from './pages/Experiments';
 // import Navigation from './components/Navigation';
 import FlyoutMenu from './components/FlyoutMenu';
+import AnimatedPage from './pages/AnimatedPage';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/tailwind" element={<TailwindPage />} />
         <Route path="/login" element={<h2>Login page in progress ...</h2>} />
+        <Route path="/animated" element={<AnimatedPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>

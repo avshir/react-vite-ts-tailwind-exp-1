@@ -9,6 +9,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 const IMG_LOGO = 'https://tailwindui.com/plus/img/logos/mark.svg?color=purple&shade=300';
 
 const navigation = [
+  { name: 'Animated', href: '/animated' },
   { name: 'Experiments', href: '/' },
   { name: 'Products', href: '/products' },
   { name: 'ProductsDummy', href: '/products-dummy' },
@@ -25,7 +26,7 @@ export default function FlyoutMenu() {
     <header className="bg-gray-800 text-lg text-gray-300">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between gap-4 p-6 lg:px-8"
       >
         <div className="flex items-center space-x-4 lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">

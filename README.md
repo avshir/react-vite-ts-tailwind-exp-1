@@ -6,14 +6,22 @@
 - React, Vite, 
 - TypeScript
 - Tailwind CSS
+
 - utility classnames
 - prettier
 - react-router-dom (BrowserRouter)
-- "react-intersection-observer" (for Lazy image load in ProductPage)
+- react-intersection-observer (for Lazy image load in ProductPage, for animation in LazyAnimation, rocket-section, AnimatedPage)
 - Intersection observer API (for Lazy image load and infinite scrolling in ProductDummyPage)
 - vite-plugin-svgr (for to transform SVGs into React components )
 - tailwind-merge (utility function to efficiently merge Tailwind CSS classes in JS without style conflicts)
 - deploy: gh-pages
+
+- @heroicons/react - SVG icons, by the makers of Tailwind CSS
+- @headlessui/react@latest - tailwind Headless UI for FlyoutMenu
+
+- tailwindcss-animated - for animation
+- Aceternity UI - for animated bloks in AnimatedPage (DotBackgroundDemo, MeteorsCardSection, InfiniteMovingCardsDemo )
+- framer-motion - use Aceternity UI
 
 ### Feat
 - ModalPotal (used React.createPortal, dialog HTML, close: on "X" button, "Cancel" button, outside, by key 'Escape', )
@@ -35,6 +43,7 @@ ButtonList
 - [Tailwind М.Непомнящий](https://www.youtube.com/watch?v=B6Aw8Ed-0eE&list=PLsRtCt_LrZRZzfZE1QxtYYtibGfDh8sYv&index=14)
 - [Infinitely Load More Data in React with the IntersectionObserver API](https://www.youtube.com/watch?v=WFw_SgVlXUY)
 - [React Intersection Observer (scroll + lazy-load картинок)](https://www.youtube.com/watch?v=a9GQFD5t6Jo) with plugin "react-intersection-observer" (for ProductPage)
+- [Trigger a Function when Scrolling to an Element in React with Intersection Observer](https://www.youtube.com/watch?v=r1auJEf9ISo) - use "react-intersection-observer" for animation
 
 - [Deploy Vite to gh-pages](https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf)
 - [Deploy Vite to gh-pages fix routes errors](https://medium.com/@Satyam_Mishra/react-router-deployment-to-gh-pages-issue-fixed-2024-bc7fd80946ad) to fix routes errors with createBrowserRouter/BrowserRouter

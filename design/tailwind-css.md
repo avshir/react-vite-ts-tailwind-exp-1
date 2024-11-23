@@ -94,6 +94,11 @@ component library for Tailwind CSS, 28000 GitHub Stars
 ## ICONS
 - [heroicons.com](https://heroicons.com/) - Heroicons, SVG icons for React, by the makers of Tailwind CSS, use creators Tailwind CSS, @heroicons/react (free)
 - [iconoir-react](https://www.npmjs.com/package/iconoir-react) (free)
+- [tabler.io](https://tabler.io/icons) (free), 5718 pixel-perfect icons for web design, @tabler/icons-react
+- CoreUI Free Icons by CoreUI (CC BY 4.0 license)
+
+### Illustrations
+- [Free illustrations](https://lukaszadam.com/illustrations) by Lukasz Adam (MIT License)
 
 ==============================================================
 ## Templates Tailwind CSS

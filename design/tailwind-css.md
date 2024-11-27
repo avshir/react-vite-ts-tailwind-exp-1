@@ -101,13 +101,13 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - [simple icons for brands](https://simpleicons.org/) - (free) 3225 SVG icons for popular brands
 - [freepik.com](https://www.freepik.com/)
 
-### Illustrations
+## Illustrations
 - [Free illustrations](https://lukaszadam.com/illustrations) by Lukasz Adam (MIT License)
 
-### Sending mail for Contact
+## Sending mail for Contact
 - nodemailer, EmailJS, web3forms
 - [web3forms.com](web3forms.com/platforms/react-contact-form) - free, for React and other
-- [How to Make Working Contact Form in React JS](https://www.youtube.com/watch?v=94_6JPDi13g)
+- [Tutorial - How to Make Working Contact Form in React JS](https://www.youtube.com/watch?v=94_6JPDi13g)
 
 ==============================================================
 ## Templates Tailwind CSS

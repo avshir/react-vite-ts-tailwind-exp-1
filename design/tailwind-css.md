@@ -92,13 +92,22 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - https://www.creative-tim.com/product/paper-kit-pro-react
 
 ## ICONS
+- [Convert SVG to JSX] (https://svg2jsx.com/) - free web tool
+- [Convert PNG to SVG] (https://convertio.co/) - free web tool
 - [heroicons.com](https://heroicons.com/) - Heroicons, SVG icons for React, by the makers of Tailwind CSS, use creators Tailwind CSS, @heroicons/react (free)
 - [iconoir-react](https://www.npmjs.com/package/iconoir-react) (free)
 - [tabler.io](https://tabler.io/icons) (free), 5718 pixel-perfect icons for web design, @tabler/icons-react
 - CoreUI Free Icons by CoreUI (CC BY 4.0 license)
+- [simple icons for brands](https://simpleicons.org/) - (free) 3225 SVG icons for popular brands
+- [freepik.com](https://www.freepik.com/)
 
 ### Illustrations
 - [Free illustrations](https://lukaszadam.com/illustrations) by Lukasz Adam (MIT License)
+
+### Sending mail for Contact
+- nodemailer, EmailJS, web3forms
+- [web3forms.com](web3forms.com/platforms/react-contact-form) - free, for React and other
+- [How to Make Working Contact Form in React JS](https://www.youtube.com/watch?v=94_6JPDi13g)
 
 ==============================================================
 ## Templates Tailwind CSS

@@ -92,8 +92,8 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - https://www.creative-tim.com/product/paper-kit-pro-react
 
 ## ICONS
-- [Convert SVG to JSX] (https://svg2jsx.com/) - free web tool
-- [Convert PNG to SVG] (https://convertio.co/) - free web tool
+- [Convert SVG to JSX](https://svg2jsx.com/) - free web tool
+- [Convert PNG to SVG](https://convertio.co/) - free web tool
 - [heroicons.com](https://heroicons.com/) - Heroicons, SVG icons for React, by the makers of Tailwind CSS, use creators Tailwind CSS, @heroicons/react (free)
 - [iconoir-react](https://www.npmjs.com/package/iconoir-react) (free)
 - [tabler.io](https://tabler.io/icons) (free), 5718 pixel-perfect icons for web design, @tabler/icons-react

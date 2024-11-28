@@ -107,6 +107,7 @@ component library for Tailwind CSS, 28000 GitHub Stars
 ## Color palette
 - ++[color.romanuke.com](https://color.romanuke.com) - free
 - +++[coolors.co](https://coolors.co) - main part - free
+- [palette from image - coolors.co](https://coolors.co/image-picker) - free
 
 ## Web and Design inspiration
 - [siteinspire.com](https://www.siteinspire.com/websites/3188-kernel-interactive)

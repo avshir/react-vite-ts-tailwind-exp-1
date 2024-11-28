@@ -91,7 +91,7 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - books: Roots of UI/UX Design
 - https://www.creative-tim.com/product/paper-kit-pro-react
 
-## ICONS
+## Icons
 - [Convert SVG to JSX](https://svg2jsx.com/) - free web tool
 - [Convert PNG to SVG](https://convertio.co/) - free web tool
 - [heroicons.com](https://heroicons.com/) - Heroicons, SVG icons for React, by the makers of Tailwind CSS, use creators Tailwind CSS, @heroicons/react (free)
@@ -103,6 +103,15 @@ component library for Tailwind CSS, 28000 GitHub Stars
 
 ## Illustrations
 - [Free illustrations](https://lukaszadam.com/illustrations) by Lukasz Adam (MIT License)
+
+## Color palette
+- ++[color.romanuke.com](https://color.romanuke.com) - free
+- +++[coolors.co](https://coolors.co) - main part - free
+
+## Web and Design inspiration
+- [siteinspire.com](https://www.siteinspire.com/websites/3188-kernel-interactive)
+- [awwwards.com](https://www.awwwards.com/websites/nominees/)
+- [boobook.world](https://www.boobook.world/)
 
 ## Sending mail for Contact
 - nodemailer, EmailJS, web3forms

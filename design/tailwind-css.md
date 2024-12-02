@@ -114,10 +114,11 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - [awwwards.com](https://www.awwwards.com/websites/nominees/)
 - [boobook.world](https://www.boobook.world/)
 
-## Sending mail for Contact
-- nodemailer, EmailJS, web3forms
+## Sending mail for Contact Form
+- nodemailer, EmailJS, web3forms, https://sendgrid.com/en-us
 - [web3forms.com](web3forms.com/platforms/react-contact-form) - free, for React and other
 - [Tutorial - How to Make Working Contact Form in React JS](https://www.youtube.com/watch?v=94_6JPDi13g)
+- [sendgrid.com](https://sendgrid.com/en-us) - [tuttorial](https://spacejelly.dev/posts/how-to-send-emails-with-sendgrid-and-next-js-serverless-functions-for-a-contact-form)
 
 ==============================================================
 ## Templates Tailwind CSS

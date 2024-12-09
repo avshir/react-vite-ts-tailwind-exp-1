@@ -91,9 +91,13 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - books: Roots of UI/UX Design
 - https://www.creative-tim.com/product/paper-kit-pro-react
 
-## Icons
+## Tools
 - [Convert SVG to JSX](https://svg2jsx.com/) - free web tool
 - [Convert PNG to SVG](https://convertio.co/) - free web tool
+- [Favicon generator - realfavicongenerator.net](https://realfavicongenerator.net/) - for all browsers, all platforms
+- [Edit images - iloveimg.com](https://www.iloveimg.com/) - compress, crop image, convert image, remove background, rotate image, blur face
+
+## Icons
 - [heroicons.com](https://heroicons.com/) - Heroicons, SVG icons for React, by the makers of Tailwind CSS, use creators Tailwind CSS, @heroicons/react (free)
 - [iconoir-react](https://www.npmjs.com/package/iconoir-react) (free)
 - [tabler.io](https://tabler.io/icons) (free), 5718 pixel-perfect icons for web design, @tabler/icons-react
@@ -105,9 +109,9 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - [Free illustrations](https://lukaszadam.com/illustrations) by Lukasz Adam (MIT License)
 
 ## Color palette
-- ++[color.romanuke.com](https://color.romanuke.com) - free
-- +++[coolors.co](https://coolors.co) - main part - free
-- [palette from image - coolors.co](https://coolors.co/image-picker) - free
+- [color.romanuke.com](https://color.romanuke.com) - free
+- [coolors.co](https://coolors.co) - main part - free
+- [coolors.co - palette from image](https://coolors.co/image-picker) - free
 
 ## Web and Design inspiration
 - [siteinspire.com](https://www.siteinspire.com/websites/3188-kernel-interactive)

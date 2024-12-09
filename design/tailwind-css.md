@@ -124,6 +124,9 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - [Tutorial - How to Make Working Contact Form in React JS](https://www.youtube.com/watch?v=94_6JPDi13g)
 - [sendgrid.com](https://sendgrid.com/en-us) - [tuttorial](https://spacejelly.dev/posts/how-to-send-emails-with-sendgrid-and-next-js-serverless-functions-for-a-contact-form)
 
+## Framer-motion
+- [frontend.fyi - course](https://www.frontend.fyi/course/framer-motion) - free and price
+
 ==============================================================
 ## Templates Tailwind CSS
 - [Aceternity UI templates](https://pro.aceternity.com/templates) 0-49

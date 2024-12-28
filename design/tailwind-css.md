@@ -101,6 +101,7 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - [heroicons.com](https://heroicons.com/) - Heroicons, SVG icons for React, by the makers of Tailwind CSS, use creators Tailwind CSS, @heroicons/react (free)
 - [iconoir-react](https://www.npmjs.com/package/iconoir-react) (free)
 - [tabler.io](https://tabler.io/icons) (free), 5718 pixel-perfect icons for web design, @tabler/icons-react
+- [react-icons](https://www.npmjs.com/package/react-icons) - use Brad Traversy
 - CoreUI Free Icons by CoreUI (CC BY 4.0 license)
 - [simple icons for brands](https://simpleicons.org/) - (free) 3225 SVG icons for popular brands
 - [freepik.com](https://www.freepik.com/)
@@ -146,6 +147,38 @@ component library for Tailwind CSS, 28000 GitHub Stars
 ===============================================================
 ===============================================================
 # Tools React
+- [react-spinners](https://www.npmjs.com/package/react-spinners) - use Brad Traversy
+- [react-toastify](https://www.npmjs.com/package/react-toastify) - for notifications in app, use Brad Traversy
 
 ## Custom Hooks
  - [usehooks-ts] (https://www.npmjs.com/package/usehooks-ts) - npm package, 20+ hooks (useCopyToClipboard, useClickAnyWhere, useLocalStorage, useScrollLock  ... )
+ - [useFetch](https://www.freecodecamp.org/news/json-server-for-frontend-development/) - how to use json-server, useFetch
+
+## API
+- [json-server](https://www.npmjs.com/package/json-server) - JSON Server for local DB (src/jobs.json) - mock or dummy API during the development phase, lightweight and easy-to-use Node.js tool that simulates a RESTful API using a JSON file as the data source.
+  - [How to Use JSON Server for Front-end Development, 2023](https://www.freecodecamp.org/news/json-server-for-frontend-development/) from freeCodeCamp - useFetch
+#### Run JSON Server
+The server will run on http://localhost:8000
+```js
+npm run server
+```
+## Real API
+- [How to Use Web APIs in Your Coding Projects](https://www.freecodecamp.org/news/how-to-use-apis-in-web-development/)
+  - free API: [edamam.com](https://www.edamam.com/)
+  - [mockapi.io](https://mockapi.io/)
+- [APIs for Beginners - How to use an API (Full Course / Tutorial)](https://www.youtube.com/watch?v=WXsD0ZgxjRw)
+
+
+### Несколько простых способов создания БД для небольшого коммерческого проекта с поддержкой CRUD-операций, используя бесплатные или доступные инструменты.
+1. Firebase (Firestore)
+2. Supabase - is an open source Firebase alternative (Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings)
+3. JSON Server (для локальной разработки)
+4. PlanetScale + Prisma
+5. Railway + PostgreSQL
+
+Рекомендации:
+- Для быстрого старта: Firebase или Supabase.
+- Для локальной разработки и тестирования: JSON Server.
+- Для масштабируемого реляционного решения: PlanetScale или Railway.
+- Выбор зависит от объема проекта и будущих планов по масштабированию.
+

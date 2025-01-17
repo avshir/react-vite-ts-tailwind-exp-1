@@ -91,7 +91,13 @@ component library for Tailwind CSS, 28000 GitHub Stars
 - books: Roots of UI/UX Design
 - https://www.creative-tim.com/product/paper-kit-pro-react
 
+## CSS Frameworks and libs
+- [Taiwind CSS](https://tailwindcss.com) - React
+- [Materialize css](https://materializecss.com/) - simple, colors, simple components (similar as Bootstrap), use М.Непомнящий in react-movies, for simple/test projects
+- [MUI or Material UI](https://mui.com/material-ui/) - free ready to use Material Design components, React
+ 
 ## Tools
+- [design-resources-for-developers from Brad Traversy](https://github.com/bradtraversy/design-resources-for-developers?tab=readme-ov-file)
 - [Convert SVG to JSX](https://svg2jsx.com/) - free web tool
 - [Convert PNG to SVG](https://convertio.co/) - free web tool
 - [Favicon generator - realfavicongenerator.net](https://realfavicongenerator.net/) - for all browsers, all platforms
@@ -121,9 +127,12 @@ component library for Tailwind CSS, 28000 GitHub Stars
 
 ## Sending mail for Contact Form
 - nodemailer, EmailJS, web3forms, https://sendgrid.com/en-us
-- [web3forms.com](web3forms.com/platforms/react-contact-form) - free, for React and other
+- [web3forms.com](web3forms.com/platforms/react-contact-form) - free, for React and other (use in supergolubika.by, portfolio-sanity-avshir)
 - [Tutorial - How to Make Working Contact Form in React JS](https://www.youtube.com/watch?v=94_6JPDi13g)
 - [sendgrid.com](https://sendgrid.com/en-us) - [tuttorial](https://spacejelly.dev/posts/how-to-send-emails-with-sendgrid-and-next-js-serverless-functions-for-a-contact-form)
+- [emailjs/browser](https://www.npmjs.com/package/@emailjs/browser), [emailjs.com](https://www.emailjs.com/) - for ContactForm. No server code needed, free plan - 200 monthly requests, HTML emails are fully supported, reCAPTCHA supported, autoreply supported
+  - [emailJS - React example](https://www.emailjs.com/docs/examples/reactjs/)
+  used in project [react-animated-portfolio-website-2024](https://github.com/avshir/react-animated-portfolio-website-2024)
 
 ## Framer-motion
 - [frontend.fyi - course](https://www.frontend.fyi/course/framer-motion) - free and price
